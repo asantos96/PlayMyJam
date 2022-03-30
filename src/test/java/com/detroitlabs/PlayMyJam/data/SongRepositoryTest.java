@@ -9,17 +9,18 @@ class SongRepositoryTest {
 
     @Test
     void findBySongTitle() {
-//        //Arrange
-//        SongRepository testSong = new SongRepository();
-//
-//
-//
-//        //Act
-//        Song result = testSong.findBySongTitle().getSongTitle().get
-//
-//        //Assert
-//        System.out.println("Result " + result);
-//        assertEquals("song 1");
+     //Arrange
+     SongRepository testSong = new SongRepository();
+
+
+
+
+        //Act
+        String result = testSong.getFullPlaylist().get(0).getSongTitle();
+
+       //Assert
+       System.out.println("Result " + result);
+       assertEquals(result, "song 1");
     }
 
 

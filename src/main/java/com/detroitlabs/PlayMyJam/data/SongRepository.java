@@ -30,9 +30,27 @@ public class SongRepository {
       }
       return null;
    }
+   /*
+   //TODO: Method to play
+   public List<Song> playSong(List<Song> fullPlaylist){
 
-   //Method to play
-   //Method to pause
-   //Method to goToPrevious
-   //Method to goToNext
+
+   }//end playSong
+
+   //TODO: Method to pause
+   public List<Song> pauseSong(){
+
+   }//end pauseSong
+
+   //TODO: Method to goToPrevious
+   public List<Song> goToPrevious(){
+
+   }//end goToPrevious
+
+   //TODO: Method to goToNext
+   public List<Song> goToNext(){
+
+   }//end goToNext
+
+    */
 }
