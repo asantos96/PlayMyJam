@@ -9,9 +9,10 @@
 <figure>
     <figcaption>Listen to the Song 1:</figcaption>
     <audio
-            controls
-            src="/songs/Song 1.m4a">
-        Your browser does not support the
+           controls
+
+     th:src="@{'/songs/' + ${musicPlayer.songTitle} + '.m4a'}">
+
         <code>audio</code> element.
     </audio>
 </figure>

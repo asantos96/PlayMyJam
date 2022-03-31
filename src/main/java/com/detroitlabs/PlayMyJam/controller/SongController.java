@@ -22,7 +22,7 @@ public class SongController {
 
     @RequestMapping("/musicplayer")
     public String displayMusicPlayer(String songTitle, ModelMap modelMap){
-        modelMap.put("musicPlayer", songRepository.findBySongTitle(songTitle));
+        modelMap.put("musicPlayer", songRepository.findBySongTitle("Song 1"));
         return "musicplayer";
     }
 }
